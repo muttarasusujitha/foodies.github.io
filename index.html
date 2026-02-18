@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+i need  search bar and dow this all swigy thing<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,13 +8,40 @@
 <body class="bg-gray-100">
 
   <!-- Navbar -->
-  <nav class="bg-white shadow-md p-4 flex justify-between items-center">
-    <h1 class="text-2xl font-bold text-orange-500">Foodies</h1>
-    <div>
-      <a href="login.html" class="text-gray-700 hover:text-orange-500 mr-4">Login</a>
-      <a href="signup.html" class="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600">Signup</a>
+<nav class="bg-white shadow-md px-6 py-4 flex items-center justify-between">
+
+  <!-- Logo -->
+  <h1 class="text-2xl font-bold text-orange-500">Foodies</h1>
+
+  <!-- Search Bar -->
+  <div class="flex-1 mx-8">
+    <div class="relative">
+      <input type="text" placeholder="Search for food..."
+        class="w-full border border-gray-300 rounded-full py-2 pl-5 pr-12 focus:outline-none focus:ring-2 focus:ring-orange-400">
+
+      <!-- Search Icon -->
+      <svg xmlns="http://www.w3.org/2000/svg"
+        class="w-5 h-5 text-gray-500 absolute right-4 top-2.5"
+        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M21 21l-4.35-4.35M10 18a8 8 0 100-16 8 8 0 000 16z" />
+      </svg>
     </div>
-  </nav>
+  </div>
+
+  <!-- Login / Signup -->
+  <div class="flex items-center space-x-4">
+    <a href="login.html" class="text-gray-700 hover:text-orange-500 font-medium">
+      Login
+    </a>
+    <a href="signup.html"
+      class="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition">
+      Signup
+    </a>
+  </div>
+
+</nav>
+
 
   <!-- Hero -->
   <div class="bg-gradient-to-r from-orange-400 to-red-500 text-white text-center py-12">
@@ -63,10 +90,7 @@
       <img src="images/food3.jpg" class="w-full h-44 object-cover">
       </span>
 
-      <!-- Must Try -->
-      <span class="bg-amber-100 text-black font-bold text-xs px-3 py-1 rounded-full shadow">
-        Must Try
-      </span>
+    
       <div class="p-4">
         <h3 class="font-bold text-lg">mutton briyani</h3>
         <p class="text-gray-600">₹299</p>
@@ -298,4 +322,4 @@
   </div>
 
 </body>
-</html>
+</html> this is my index you can add here 
